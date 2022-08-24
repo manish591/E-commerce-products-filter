@@ -31,7 +31,7 @@ const filterReducer = (state, action) => {
       return {
         sort: '',
         idealFor: '',
-        sizes: '',
+        sizes: [],
         brands: [],
       };
 
