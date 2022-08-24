@@ -1,0 +1,15 @@
+.productCard {
+  border: 1px solid gray;
+  /* display: grid; */
+}
+
+.productCardContent {
+  padding-inline: 0.25rem;
+  padding-block: 0.5rem;
+}
+
+.productDescription {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

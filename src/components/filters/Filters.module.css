@@ -1,0 +1,18 @@
+.filters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.filtersHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clearFilter {
+  border: none;
+  background: none;
+  color: blue;
+}

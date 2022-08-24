@@ -1,0 +1,33 @@
+.productListing {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.productListingHeader {
+  background-color: rgba(107, 107, 107, 0.144);
+  text-align: center;
+  padding-block: 0.5rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 10%);
+}
+
+.productListingMain {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  inline-size: min(98%, 1800px);
+  margin-inline: auto;
+  align-items: flex-start;
+}
+
+.noProductFound {
+  margin-block-start: 5rem;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .productListingMain {
+    grid-template-columns: 250px minmax(0, 1fr);
+  }
+}
